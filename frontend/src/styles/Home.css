@@ -1,0 +1,20 @@
+.main-ref::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.main-ref {
+    overflow-y: hidden;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+}
+
+/* 
+@media screen and (max-width: 768px) {
+
+} */
