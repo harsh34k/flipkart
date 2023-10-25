@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+.catogries_main {
+    background-color: white;
+    min-height: 10vh;
+    min-width: 100%;
+    display: flex;
+    overflow: auto;
+    max-height: 35vh;
+    margin: 1rem 0;
+    /* overflow: scroll; */
+}
+
+.individual_catogries {
+    margin: 1rem;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 14vw;
+    flex: 1;
+}
+
+.img_catogries {
+    object-fit: contain;
+    max-height: 62%;
+}
+
+.categories_name {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: large;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    display: flex;
+    margin: 1rem;
+    background: rgb(40, 116, 240);
+    max-width: max-content;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+}
+
+.title {
+    color: rgb(33, 33, 33);
+    opacity: 0.6;
+    max-height: 1rem;
+    font-size: 18px;
+    margin: 10px 0;
+}

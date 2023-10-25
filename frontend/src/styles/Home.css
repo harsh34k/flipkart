@@ -1,17 +1,36 @@
-.main-ref::-webkit-scrollbar {
+/* .main-ref::-webkit-scrollbar {
     display: none;
     scrollbar-width: none;
-}
+} */
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 0;
     height: 0;
+} */
+
+.classic_white_back {
+    /* background-Color: white;
+    margin: 10px 0px;
+    display: flex;
+    justify-Content: space-evenly;
+    align-Items: center;
+    min-Height: 12vh;
+    overflow: scroll, */
+    background-Color: white;
+    margin: 10px 0px;
+    display: flex;
+    justify-Content: space-between;
+    align-Items: center;
+    min-Height: 12vh;
+    overflow: auto;
 }
 
-.main-ref {
-    overflow-y: hidden;
-    /* Hide vertical scrollbar */
-    overflow-x: hidden;
+.Bank {
+    min-height: 0;
+}
+
+.Bank_img {
+    max-width: 100%;
 }
 
 /* 
